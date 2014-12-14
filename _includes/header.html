@@ -1,0 +1,25 @@
+<header class="navbar navbar-static-top navbar-inverse" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#header-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.baseurl }}/" class="navbar-brand">{{ site.title }}</a>
+    </div>
+    <nav id="header-navbar" class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        {% for _page in site.pages %}
+          {% if _page.title %}
+          <li{% if _page.url == page.url %} class="active"{% endif %}><a href="{{ _page.url | prepend: site.baseurl }}">{{ _page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        <li><a href="https://github.com/YePpHa/YouTubeCenter/">Github</a></li>
+        <li><a href="https://github.com/YePpHa/YouTubeCenter/wiki">Wiki</a></li>
+        <li><a href="https://github.com/YePpHa/YouTubeCenter/issues">Issues</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
