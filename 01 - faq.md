@@ -12,17 +12,18 @@ If not then create a new issue at the [Issue Tracker](https://github.com/YePpHa/
 This is caused by YouTube limiting the availability of qualities when __DASH Playback__ is disabled.
 DASH playback is available for the flash player, but is more limited for the HTML5 player.
 The HTML5 player needs MSE (Media Source Extensions) to be available otherwise DASH playback would
-be disabled. MSE is disabled in Firefox, but can be enabled in Firefox 31 (see [this guide]
-(http://www.ghacks.net/2014/05/10/enable-media-source-extensions-firefox/) on how to enable MSE).
+be disabled. MSE is disabled in Firefox, but can be enabled in Firefox 31 (see
+[this guide](http://www.ghacks.net/2014/05/10/enable-media-source-extensions-firefox/) on how to
+enable MSE).
 
 ###When will the next version of YouTube Center get released?
 A new version of YouTube Center will get released when I think that it's ready. If you're impatient
 you can try the [developer version](https://yeppha.github.io/developer-version.html).
 
 ###How do I install YouTube Center on Chrome?
-If you're not against using a third-party extension to load YouTube Center, you can also use [Tampermonkey]
-(https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) to install the
-[userscript version](https://yeppha.github.io/downloads/YouTubeCenter.user.js).
+If you're not against using a third-party extension to load YouTube Center, you can also use
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+to install the [userscript version](https://yeppha.github.io/downloads/YouTubeCenter.user.js).
 
 If none of the options above works for you, you can also unpack the extension and load it through the developer mode.
 
